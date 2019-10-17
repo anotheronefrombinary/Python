@@ -3,7 +3,7 @@
 #2) Advance გამოიანგარიშეთ რამდენი დღე არის დარჩენილი მოხმარებლის დაბადების დღემდე (ბიბლიოთეკის გამოყენება მისაღებია, თუ გაიაზრებთ რას #აკეთებთ copy/paste, მიუღებელია, ასევე ლექციაზე random ად აირჩევა სტუდენტი რომელიც თავის დაწერილ კოდს ახსნის)
 #
 #:> Solution: 
-rom datetime import date, datetime
+from datetime import date, datetime
 name = input("Sheiyvanet tqveni saxeli: ")
 surname = input("Sheiyvanet tqveni gvari: ")
 dd = input("Sheiyvanet tqveni dabadebis ricxvi: ")
