@@ -6,7 +6,7 @@
 #ხელახლა დაბეჭდეთ რამდენი key:value წყვილისგან შედგება dictionary.
 #:> Solution:
 bibl = {"levan":18}
-tpl = (guido, tim)
+tpl = ("guido", "tim")
 print(len(bibl))
 name = input("Sheiyvanet tqveni saxeli: ")
 age = input("Sheiyvanet tqveni asaki: ")
