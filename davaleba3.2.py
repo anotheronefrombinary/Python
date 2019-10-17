@@ -1,4 +1,4 @@
-#ექმენით dictionary სადაც key:value იქნება თქვენი სახელი და ასაკი(KEY იქნება თქვენი სახელი, VALUE იქნება თქვენი ასაკი)
+#შექმენით dictionary სადაც key:value იქნება თქვენი სახელი და ასაკი(KEY იქნება თქვენი სახელი, VALUE იქნება თქვენი ასაკი)
 #დაბეჭდეთ რამდენი key:value წყვილისგან შედგება dictionary.
 #შექმენით tuple, რომელშიც იქნება შემდეგი სიტყვები : guido, tim
 #ამის შემდეგ მომხარებელს მიეცით საშუალება შეიყვანონ სახელი და ასაკი.
@@ -7,9 +7,9 @@
 #:> Solution:
 bibl = {"levan":18}
 tpl = ("guido", "tim")
-print(len(bibl))
+print("dictionaryshi aris: ", len(bibl), "wyvili")
 name = input("Sheiyvanet tqveni saxeli: ")
 age = input("Sheiyvanet tqveni asaki: ")
 if name == tpl[0] or tpl[1]:
 	bibl[name] = age
-print(len(bibl))
+print("dictionaryshi aris: ", len(bibl), "wyvili")
