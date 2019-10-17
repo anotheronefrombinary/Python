@@ -5,7 +5,7 @@
 #თუკი სახელი არის tuple-ში, მაშინ მომხარებლის მიერ შეყვანილი სახელი და ასაკი დაამატეთ თავდაპირველად შექმნილ dictionary-ში.
 #ხელახლა დაბეჭდეთ რამდენი key:value წყვილისგან შედგება dictionary.
 #:> Solution:
-bibl = {levan:18}
+bibl = {"levan":18}
 tpl = (guido, tim)
 print(len(bibl))
 name = input("Sheiyvanet tqveni saxeli: ")
