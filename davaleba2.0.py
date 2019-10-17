@@ -13,6 +13,7 @@
 #
 #hint:
 #sia[0][0] = "a"
+#
 #:> Solution: 
 sia = ["abc", "d", "efghi", "j", "klmnop", "qr","st","uv","wxyz"]
 saxeli = (sia[4][1]+sia[2][0]+sia[7][1]+sia[0][0]+sia[4][3])

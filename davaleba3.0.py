@@ -5,6 +5,7 @@
 #მაგალითად:
 #თუკი მომხარებელმა შეიყვანა სიტყვა " test " - უნდა დაიბეჭდოს " testing "
 #თუკი შეიყვანა " string " - უნდა დაიბეჭდოს " stringly "
+#
 #:> Solution:
 a = input("Sheiyvanet rame: ")
 if a[-3:] != "ing":
