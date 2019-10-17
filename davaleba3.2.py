@@ -11,5 +11,5 @@ print(len(bibl))
 name = input("Sheiyvanet tqveni saxeli: ")
 age = input("Sheiyvanet tqveni asaki: ")
 if name == tpl[0] or tpl[1]:
-	bibl.[name] = age
+	bibl[name] = age
 print(len(bibl))
