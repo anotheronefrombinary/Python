@@ -1,7 +1,3 @@
-#შემოატანინეთ მომხმარებელს კონსოლიდან , ით გამოყოფილი ნებისმიერი ტექსტური მნიშვნელობები, რის შემდეგაც გადააქციეთ ეს ტექსტი მასივად. თუ ამ მასივის სიგრძე იქნება კენტი ამოიღეთ შუა ელემენტი, თუ ეს ელემენტი იქნება კენტი სიგრძის ამოიღეთ ამ ელემენტის შუა ელემენტი.
-#მაგალითად : ["test", "tst","test"] --> "tst" --> s
-#ხოლო თუ მასივის სიგრძე იქნება ლუწი ამოიღებთ ამ ელემენტის შუა 2 ელემენტს და შეამოწმებთ თითოეულის სიგრძეს თუ რომელიმეს სიგრძე ლუწი იქნება ამოიღებთ ამ ელემენტის შუა 2 მნიშვნელობას თუ კენი ამოიღებთ მხოლოდ ერთს.
-#მაგალითად : ["test", "tst","test","test"] --> "tst", "test" --> s, es
 a = input("Sheiyvanet nebismieri texturi mnishvnelobebi, gamoyavit mdzimit: ").split(",")
 #წინაპირობა
 if len(a) % 2 == 1:
@@ -68,3 +64,4 @@ if len(a) % 2 == 0 and len(mida) % 2 == 1 and len(midb) % 2 == 1:
   a1 = len(mida)/2
   a2 = len(midb)/2
   print("Shua wevrebis shua elementebia: ", mida[int(a1)], midb[int(a2)])
+#GitHub: https://github.com/anotheronefrombinary/Python/blob/master/davaleba3.2.py
