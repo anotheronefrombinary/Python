@@ -1,4 +1,4 @@
-#Decimal to binary converter by leonidas  
+#Decimal to binary converter by Leonidas 
 a = input("Input any number: ")
 numtobin = []
 b = a
