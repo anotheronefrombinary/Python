@@ -1,5 +1,5 @@
 #Decimal to binary converter by leonidas  
-a = input("Sheiyvanet ricxvi romlis gadayvanac gindat binaryshi: ")
+a = input("Input any number: ")
 numtobin = []
 b = a
 num = ""
@@ -17,6 +17,6 @@ for i in numtobin:
   num += str(i)
 num = int(num)
 #END OF CONVERTER
-print("{} binaryshi aris: ".format(b), num)
+print("{} in binary: ".format(b), num)
 #AnotherOneFromBinary
 #Git: https://github.com/anotheronefrombinary
